@@ -30,6 +30,6 @@ Carter
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Have the riddle show up when you get to the door
+* More options in the options menu
+* More levels with more riddles
