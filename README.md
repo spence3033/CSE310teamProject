@@ -14,22 +14,19 @@ All of the scripts that we wrote and are being used in our Unity game are writte
 
 # Collaborators
 
-Joshua
-Spencer
-Clancy
-Diego
-Bradley
-Carter
+Joshua Ellis  
+Spencer Birch  
+Clancy Thomas  
+Diego Arroyo Castaneda  
+Bradley Hunter  
+Carter Solberg  
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [LogRocket](https://blog.logrocket.com/fast-prototyping-unity-scriptable-objects/) (Blog about core construction of a Scriptable Object Class)
+* [Unity UI Manual](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/index.html)
+* [Unity Learn Animation Control Tutorial](https://learn.unity.com/tutorial/controlling-animation#5c7f8528edbc2a002053b4e2)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Have the riddle show up when you get to the door
 * More options in the options menu
 * More levels with more riddles
