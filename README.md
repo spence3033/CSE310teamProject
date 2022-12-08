@@ -14,7 +14,12 @@ We used Unity to develop this software.
 
 # Collaborators
 
-{Provide a list of everyone on your team}
+Joshua
+Spencer
+Clancy
+Diego
+Bradley
+Carter
 
 # Useful Websites
 
