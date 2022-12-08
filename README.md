@@ -2,15 +2,13 @@
 
 This is not a collage assignment
 
-
-
-{If this is an online class, then provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+This repository is a collection of scripts that are used in our Unity game. The main idea of our game is that you
+are exploring a dungeon full of letters and you have to solve a riddle to escape. In order to solve the riddle you
+have to defeat the letter enemies to collect letters to answer the riddle with.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+We used Unity to develop this software.
 
 {Describe the programming language that you used and any libraries.}
 
