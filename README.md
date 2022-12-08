@@ -10,7 +10,7 @@ have to defeat the letter enemies to collect letters to answer the riddle with.
 
 We used Unity to develop this software.
 
-{Describe the programming language that you used and any libraries.}
+All of the scripts that we wrote and are being used in our Unity game are written in C#
 
 # Collaborators
 
