@@ -75,6 +75,7 @@ public class BulletController : MonoBehaviour
         currentTime += Time.deltaTime;
     }
 
+	// Function used to create the firing animation
 	IEnumerator MuzzleFlash()
     {
         var originalSprite = _renderer.sprite;
@@ -95,7 +96,8 @@ public class BulletController : MonoBehaviour
 		else if (vertical < 0){
 			RotateDown();
 		}
-
+	
+	// Sprite rendered will use the firing sprite for a set amount of frames and then return the normal bullet sprite
         var framesFlashed = 0;
         while (framesFlashed < 20)
         {
