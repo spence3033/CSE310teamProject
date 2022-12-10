@@ -20,10 +20,10 @@ Bradley Hunter
 Carter Solberg  
 
 # Useful Websites
-* [LogRocket] (https://blog.logrocket.com/fast-prototyping-unity-scriptable-objects/) (Blog about core construction of a Scriptable Object Class)
-* [Unity UI Manual] (https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/index.html)
-* [Unity Learn Animation Control Tutorial] (https://learn.unity.com/tutorial/controlling-animation#5c7f8528edbc2a002053b4e2)
-* [Creating spawn point for bullets] (https://answers.unity.com/questions/399749/how-to-create-spawnpoint-for-bullet-shoot-1.html)
+* [LogRocket](https://blog.logrocket.com/fast-prototyping-unity-scriptable-objects/) (Blog about core construction of a Scriptable Object Class)
+* [Unity UI Manual](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/index.html)
+* [Unity Learn Animation Control Tutorial](https://learn.unity.com/tutorial/controlling-animation#5c7f8528edbc2a002053b4e2)
+* [Creating spawn point for bullets](https://answers.unity.com/questions/399749/how-to-create-spawnpoint-for-bullet-shoot-1.html)
 
 # Future Work
 * Have the riddle show up when you get to the door
