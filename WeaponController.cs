@@ -4,30 +4,35 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    public GameObject BulletSpawner;
+    
     private SpriteRenderer _renderer;
     private Animator animate;
-	public Sprite gunNormal;
-	public Sprite gunUpSprite;
-	public Sprite gunDownSprite;
-	public GameObject bullet;
+    
+    // Public variables that will be set in the Inspector
+    public GameObject BulletSpawner;
+    public Sprite gunNormal;
+    public Sprite gunUpSprite;
+    public Sprite gunDownSprite;
+    public GameObject bullet;
 
+    // Variables used to determine what the inputs are from the user
     private float horizontal;
     private float vertical;
     private float fire;
     private bool firing = false;
     
+    // Variable used to flip the weapon sprite and properly locate the bullet spawner
     private bool right = false;
     private bool left = false;
     private bool up = false;
     private bool down = false;
-
-	private bool spawnRight = false;
+    private bool spawnRight = false;
     private bool spawnLeft = false;
     private bool spawnUp = false;
     private bool spawnDown = false;
 
-	public float extra = 0.2f;
+    // Variables used to get the correct offsets for the bullet spawn location
+    public float extra = 0.2f;
     private float extraX = 0.2f;
     private float extraY = 0.2f;
     
@@ -65,7 +70,7 @@ public class WeaponController : MonoBehaviour
 		Vector2 spawnPosition = this.transform.position;
         
         if (right || horizontal > 0){
-            // Right
+            // Adjustments needed when facing right
 			if(_renderer.sprite != gunNormal)
 			{
 				_renderer.sprite = gunNormal;
@@ -73,7 +78,7 @@ public class WeaponController : MonoBehaviour
             _renderer.flipX = true;
         }
         else if (left || horizontal < 0){
-            // Left
+            // Adjustments needed when facing left
 			spawnPosition.x = spawnPosition.x - extraX -.1f;
 			if(_renderer.sprite != gunNormal)
 			{
@@ -82,19 +87,20 @@ public class WeaponController : MonoBehaviour
             _renderer.flipX = false;
         }
         else if (up || vertical > 0){
-            // Up
+            // Adjustments needed when facing up
 			spawnPosition.x = spawnPosition.x - extraX;
 			spawnPosition.y = spawnPosition.y + extraY + .1f;
 			_renderer.sprite = gunUpSprite;
         }
         else if (down || vertical < 0){
-            // Down
+            // Adjustments needed when facing down
 			spawnPosition.x = spawnPosition.x - extraX;
 			_renderer.sprite = gunDownSprite;
         }
 		BulletSpawner.transform.position = spawnPosition;
     }
-
+	
+	// Handles the shooting - Fixed update called more often than normal update
 	void FixedUpdate()
     {
 		horizontal = Input.GetAxis("Horizontal");
